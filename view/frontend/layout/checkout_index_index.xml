@@ -10,8 +10,6 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
     <body>
-        <referenceBlock name="paypal.sdk.loader" remove="true"/>
-        <referenceBlock name="paypal.smart.buttons" remove="true"/>
         <referenceContainer name="after.body.start">
             <block class="GDMexico\RestrictedShipping\Block\Cart\Validation"
                    name="gdmexico.restrictedshipping.checkout.message.loader"
